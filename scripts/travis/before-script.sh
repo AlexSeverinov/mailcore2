@@ -9,7 +9,7 @@ if test x"`uname`" = xDarwin ; then
     brew install cmake
   fi
 elif test x"`uname`" = xLinux ; then
-  git clone --depth=1 https://github.com/dinhviethoa/libetpan
+  git clone --depth=1 https://github.com/AlexSeverinov/libetpan
   cd libetpan
   ./autogen.sh
   make >/dev/null

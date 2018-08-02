@@ -35,7 +35,7 @@ This is the first attached message.
 --------------167E2781446B
 Content-Type: image/gif; name="one.gif"
 Content-Transfer-Encoding: base64
-Content-Disposition: attachment; filename="one.gif"
+Content-Disposition: attachment; filename*=utf-8''out.gif.gpg
 
 R0lGODdhpAAoAPAAAP///wAAACwAAAAApAAoAAAC/oSPqcvtD6OctNqLs968+w+G4kiW5omm
 6sq27gvH8kzX9o3nuhP0frCT/HpBkK8I+RmUyM2xyXgipFALtbq8AphYirb63RK73nF2zOUe
