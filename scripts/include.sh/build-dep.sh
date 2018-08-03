@@ -294,7 +294,17 @@ get_prebuilt_dep()
   if test "x$name" = x ; then
     return
   fi
-  
+
+if [ "$name" == "libetpan-ios" ]; then
+build_for_external=1 "$scriptpath/build-$name.sh"
+return;
+fi
+
+if [ "$name" == "libetpan-osx" ]; then
+build_for_external=1 "$scriptpath/build-$name.sh"
+return;
+fi
+
   versions_path="$scriptpath/deps-versions.plist"
   installed_versions_path="$scriptpath/installed-deps-versions.plist"
   if test ! -f "$versions_path" ; then
